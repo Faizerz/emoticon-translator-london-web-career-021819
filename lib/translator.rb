@@ -3,7 +3,7 @@ require "yaml"
 
 def load_library
   YAML.load_file(file_path).each do |meaning, array|
-    english, japanese = array
+    
 
 def get_japanese_emoticon
   # code goes here
