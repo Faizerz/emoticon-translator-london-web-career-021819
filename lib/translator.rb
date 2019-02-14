@@ -2,8 +2,8 @@ require "yaml"
 
 
 def load_library
-  YAML.load_file(file_path).each do |meaning, array|
-    
+  YAML.load_file(emoticons.yml).each do |meaning, array|
+    re
 
 def get_japanese_emoticon
   # code goes here
